@@ -51,7 +51,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Piyush Text to Speech</h1>
+      <h1>Text to Speech</h1>
       <form className="form">
         <label htmlFor="text">Enter text to speak:</label>
         <textarea id="text" value={text} onChange={handleTextChange} />
